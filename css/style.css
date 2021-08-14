@@ -1,0 +1,466 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+/* Google Fonts */
+
+
+/* Start Global */
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul
+{
+    list-style: none;
+}
+
+/* End Global */
+
+/* Start Navbar */
+
+.navbar-brand
+{
+    margin-right: 10rem;
+}
+
+.nav-item .nav-link
+{
+    margin-left: 25px;
+    color: #000 !important;
+}
+
+.nav-item .nav-link i
+{
+    margin-left: 5px;
+}
+
+nav .nav-item .signup
+{
+    border: 1px solid #3A556A;
+    padding: 5px 3px;
+    border-radius: 10px;
+    color: #000 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+nav .nav-item .signup:hover
+{
+    background-color: #E1E6E9;
+    border: 1px solid #E1E6E9;
+}
+
+
+/* End Navbar */
+
+/* Start Header */
+
+header .desc span
+{
+    color: #DF6951;
+    font-weight: 700;
+    display: block;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+header .desc h2
+{
+    color: #181E4B;
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 70px;
+    letter-spacing: -0.1rem;
+    max-width: 425px;
+}
+
+header .desc p
+{
+    color: #5E6282;
+    max-width: 400px;
+    margin: 25px 0;
+}
+
+header .btns > button
+{
+    background: #F1A501;
+    padding: 10px 18px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    margin-right: 20px;
+}
+
+header .btns div 
+{
+    display: inline-block;
+    padding: 10px;
+    background: #DF6951;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 5px;
+}
+
+header .btns div i
+{
+    margin-left: 10px;
+}
+
+header img
+{
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+}
+
+
+/* End Header */
+
+/* Start Category */
+
+.category
+{
+    padding: 80px 0 40px;
+}
+
+.category .title span
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3A556A;
+}
+
+.category .title h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.category .cat .theCat
+{
+    padding: 30px 0;
+    border-radius: 10px;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.category .cat .theCat:hover
+{
+    box-shadow: 6px 10px 12px #ccc;
+    cursor: pointer;
+}
+
+.category .cat img
+{
+    display: block;
+    margin: auto;
+}
+
+.category .cat b
+{
+    display: block;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.category .cat p
+{
+    text-align: center;
+    font-weight: 500;
+    line-height: 26px;
+    color: #5E6282;
+    width: 205px;
+    margin: 10px auto;
+}
+
+/* End Category */
+
+/* Start Selling */
+
+.selling
+{
+    padding: 40px 0;
+}
+
+.selling .title span
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3A556A;
+}
+
+.selling .title h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.selling .theCity
+{
+    padding: 0px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 6px 10px 16px #ccc;
+    cursor: pointer;
+}
+
+.selling .theCity:hover
+{
+    transform: translate(0, -10px);
+}
+
+.selling .theCity img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.selling .theCity p
+{
+    text-indent: 5px;
+    margin: 10px;
+    color: #000;
+    letter-spacing: 0.1rem;
+}
+
+.selling .theCity span
+{
+    text-indent: 5px;
+    margin: 0px 0 30px;
+    display: block;
+    color: #000;
+    letter-spacing: 0.1rem;
+}
+
+
+/* End Selling */
+
+
+/* Start Booking Section */
+
+.booking
+{
+    padding: 80px 0;
+}
+
+.booking .title span
+{
+    font-size: 18px;
+    color: #3A556A;
+}
+
+.booking .title h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.booking .feat .icon
+{
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.booking .feat:nth-of-type(2) .icon
+{
+    background-color: #F1A501;
+}
+
+.booking .feat:nth-of-type(3) .icon
+{
+    background-color: #F15A2B;
+}
+
+.booking .feat:nth-of-type(4) .icon
+{
+    background-color: #006380;
+}
+
+.booking .feat b
+{
+    margin-left: 15px;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 10px;
+}
+
+.booking .feat p
+{
+    margin-left: 60px;
+    max-width: 300px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* End Booking Section */
+
+/* Start Testimonials */
+
+.testimonials
+{
+    padding: 80px 0;
+}
+
+.testimonials .title span
+{
+    font-size: 18px;
+    color: #3A556A;
+}
+
+.testimonials .title h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    max-width: 400px;
+}
+
+.testimonials .card .card-body
+{
+    position: relative;
+}
+
+.testimonials .card .card-body img
+{
+    position: absolute;
+    bottom: 150px;
+    left: -60px;
+}
+
+.testimonials .card .card-body p
+{
+    margin-bottom: 50px;
+    line-height: 32px;
+}
+
+.testimonials .card .card-body b
+{
+    display: block;
+}
+
+/* End Testimonials */
+
+/* Start Brands Section */
+
+.brand
+{
+    padding: 80px 0;
+}
+
+.brand .theBrand
+{
+    padding: 20px 0;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.brand .theBrand:hover
+{
+    box-shadow: 6px 10px 12px #ccc;
+    cursor: pointer;
+}
+
+.brand .theBrand i 
+{
+    font-size: 4rem;
+}
+
+
+/* End Brands Section */
+
+/* Start Subscripe */
+
+.subscripe .title h2
+{
+    font-size: 33px;
+    line-height: 54px;
+    color: #5E6282;
+    max-width: 750px;
+    margin: 40px auto;
+}
+
+.subscripe .provider
+{
+    padding: 40px 0;
+    background: rgb(223, 215, 249, 0.2);
+    border-radius: 20px 129px 20px 20px;
+}
+
+.subscripe .provider form input
+{
+    border: none;
+    padding: 12px 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.subscripe .provider form input[type="submit"]
+{
+    background-color: #FF946D;
+    color: #fff;
+}
+/* End Subscripe */
+
+/* Start Footer */
+
+footer
+{
+    padding: 120px 0 40px;
+}
+
+footer img
+{
+    margin-bottom: 20px;
+}
+
+footer p
+{
+    font-size: 13px;
+}
+
+footer ul li
+{
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+footer ul li strong
+{
+    font-size: 26px;
+}
+
+
+/* End Footer */
+
+/* Start Copy */
+
+.copy
+{
+    padding: 40px;
+}
+
+/* End Copy */

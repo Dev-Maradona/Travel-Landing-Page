@@ -1,0 +1,65 @@
+/*
+---------------------------------------------------
+Media Query To Fix Some Issues In Responsive Design
+---------------------------------------------------
+*/
+
+/* Smart Phone And Tablet */
+@media (max-width:768px)
+{
+    header img {
+        margin: 20px 0;
+    }
+    .selling .theCity
+    {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .testimonials .card .card-body img
+    {
+        display: none;
+    }
+}
+
+/* Small Screen */
+@media (min-width:768px) and (max-width:795px)
+{
+    .testimonials .card .card-body img
+    {
+        display: none;
+    }
+
+}
+
+@media (min-width:795px) and (max-width:990px)
+{
+
+    .testimonials .card .card-body img
+    {
+        display: none;
+    }
+
+    .selling .theCity
+    {
+        width: 32%;
+        margin-right: 1%;
+    }
+
+}
+
+/* Medium Screen */
+@media (min-width:991px)
+{
+    .selling .theCity
+    {
+        width: 32%;
+        margin-right: 1%;
+    }
+
+}
+
+/*
+---------------------------------------------------
+Media Query To Fix Some Issues In Responsive Design
+---------------------------------------------------
+*/
